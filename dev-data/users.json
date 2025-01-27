@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "age": 28,
+    "email": "alice.johnson@example.com",
+    "phone": "555-1234"
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "age": 34,
+    "email": "bob.smith@example.com",
+    "phone": "555-5678"
+  },
+  {
+    "id": 3,
+    "name": "Charlie Brown",
+    "age": 22,
+    "email": "charlie.brown@example.com",
+    "phone": "555-8765"
+  },
+  {
+    "id": 4,
+    "name": "David Wilson",
+    "age": 45,
+    "email": "david.wilson@example.com",
+    "phone": "555-4321"
+  },
+  {
+    "id": 5,
+    "name": "Eva Green",
+    "age": 30,
+    "email": "eva.green@example.com",
+    "phone": "555-6789"
+  },
+  {
+    "id": 6,
+    "name": "Frank White",
+    "age": 29,
+    "email": "frank.white@example.com",
+    "phone": "555-9876"
+  },
+  {
+    "id": 7,
+    "name": "Grace Lee",
+    "age": 27,
+    "email": "grace.lee@example.com",
+    "phone": "555-3456"
+  },
+  {
+    "id": 8,
+    "name": "Henry Adams",
+    "age": 33,
+    "email": "henry.adams@example.com",
+    "phone": "555-6543"
+  },
+  {
+    "id": 9,
+    "name": "Isabel Clark",
+    "age": 26,
+    "email": "isabel.clark@example.com",
+    "phone": "555-7890"
+  },
+  {
+    "id": 10,
+    "name": "Jack Davis",
+    "age": 31,
+    "email": "jack.davis@example.com",
+    "phone": "555-0987"
+  }
+]
