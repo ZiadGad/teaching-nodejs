@@ -2,7 +2,6 @@ const express = require("express");
 const morgan = require("morgan");
 const fs = require("fs"); // file system
 const userRouter = require("./routes/userRoutes");
-
 const app = express();
 
 const users = JSON.parse(fs.readFileSync("./dev-data/users.json", "utf-8"));
@@ -20,9 +19,11 @@ app.use(morgan("dev")); // For LOGS
 // });
 
 // Routes
-
 app.use("/users", userRouter);
 
 app.listen(3000, () => {
   console.log("server is running");
 });
+// TODO: Crate application that use get and post methods in one file
+// TODO: create routes, controllers folders for your application and create some middlewares
+// TODO: create a products routes and collections in this file

@@ -1,19 +1,17 @@
 const express = require("express");
+const userController = require("../controllers/userController");
 
 const router = express.Router();
 
-router.route("/users").get().post();
+router
+  .route("/")
+  .get(userController.getAllUsers)
+  .post(userController.createUser);
 
 router
-  .route("/users/:id")
-  .get((req, res) => {
-    const id = req.params.id * 1;
-    const newUser = users.find((el) => el.id == id);
-    res.json(newUser);
-  })
-  .patch((req, res) => {
-    res.send("Update users");
-  })
-  .delete((req, res) => {});
+  .route("/:id")
+  .get(userController.getId, userController.checkId, userController.getUser)
+  .patch(userController.updateUser)
+  .delete(userController.deleteUser);
 
 module.exports = router;
