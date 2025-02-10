@@ -24,6 +24,7 @@ app.use("/users", userRouter);
 app.listen(3000, () => {
   console.log("server is running");
 });
+
 // TODO: Crate application that use get and post methods in one file
 // TODO: create routes, controllers folders for your application and create some middlewares
 // TODO: create a products routes and collections in this file
