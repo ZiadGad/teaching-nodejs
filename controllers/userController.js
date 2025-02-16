@@ -1,6 +1,6 @@
 exports.getUser = (req, res) => {
-  res.send("hello");
+  res.send('hello');
 };
 exports.createUser = (req, res) => {
-  res.send("creat user");
+  res.send('creat user');
 };
